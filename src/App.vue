@@ -10,7 +10,7 @@
 
     export default{
         data: () => ({
-            contador : 10,
+            contador : 500,
         }),
 
         methods:{
@@ -27,7 +27,7 @@
             },
 
             resetear(){
-                this.contador = 10;
+                this.contador = 500;
             },
         }
     };
